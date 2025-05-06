@@ -44,54 +44,6 @@ This Python project is designed to **parse, process, visualize, and serialize ra
 
 ---
 
-## 🧪 Setting Up a Virtual Environment
-
-To keep your dependencies isolated, it's recommended to use a virtual environment.
-
-### Step-by-step:
-
-1. **Create the virtual environment**
-
-```bash
-python -m venv venv
-```
-
-2. **Activate the virtual environment**
-
-- On **Linux/macOS**:
-
-```bash
-source venv/bin/activate
-```
-
-- On **Windows**:
-
-```bash
-venv\Scripts\activate
-```
-
-3. **Install the dependencies**
-
-Make sure you have a `requirements.txt` file in the root folder, then run:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. (Optional) **Deactivate the environment when you're done**
-
-```bash
-deactivate
-```
-
----
-
-> 💡 Tip: You can generate a `requirements.txt` file with your current environment using:
-
-```bash
-pip freeze > requirements.txt
-```
-
 ### 🧪 Command Line Interface
 
 ```bash
@@ -131,6 +83,45 @@ Make sure to install the following Python packages:
 pip install numpy matplotlib scipy
 ```
 
+## 🧪 Setting Up a Virtual Environment
+
+To keep your dependencies isolated, it's recommended to use a virtual environment.
+
+### Step-by-step:
+
+1. **Create the virtual environment**
+
+```bash
+python -m venv venv
+```
+
+2. **Activate the virtual environment**
+
+- On **Linux/macOS**:
+
+```bash
+source venv/bin/activate
+```
+
+- On **Windows**:
+
+```bash
+venv\Scripts\activate
+```
+
+3. **Install the dependencies**
+
+Make sure you have a `requirements.txt` file in the root folder, then run:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. (Optional) **Deactivate the environment when you're done**
+
+```bash
+deactivate
+```
 ---
 
 ## ✍️ Notes
